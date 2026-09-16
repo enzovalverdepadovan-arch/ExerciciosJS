@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Top 10</title>
+</head>
+<body class="bg-light">
+    <div class="container py-5">
+        <div class="card shadow-sm mx-auto" style="max-width: 720px;">
+            <div class="card-body p-4">
+                <h1 class="card-title text-center mb-4">Top 10</h1>
+
+                <div class="row g-3">
+                    <div class="col-md-6"><label for="numeroTop1" class="form-label">Número 1:</label><input type="number" class="form-control" id="numeroTop1"></div>
+                    <div class="col-md-6"><label for="numeroTop2" class="form-label">Número 2:</label><input type="number" class="form-control" id="numeroTop2"></div>
+                    <div class="col-md-6"><label for="numeroTop3" class="form-label">Número 3:</label><input type="number" class="form-control" id="numeroTop3"></div>
+                    <div class="col-md-6"><label for="numeroTop4" class="form-label">Número 4:</label><input type="number" class="form-control" id="numeroTop4"></div>
+                    <div class="col-md-6"><label for="numeroTop5" class="form-label">Número 5:</label><input type="number" class="form-control" id="numeroTop5"></div>
+                    <div class="col-md-6"><label for="numeroTop6" class="form-label">Número 6:</label><input type="number" class="form-control" id="numeroTop6"></div>
+                    <div class="col-md-6"><label for="numeroTop7" class="form-label">Número 7:</label><input type="number" class="form-control" id="numeroTop7"></div>
+                    <div class="col-md-6"><label for="numeroTop8" class="form-label">Número 8:</label><input type="number" class="form-control" id="numeroTop8"></div>
+                    <div class="col-md-6"><label for="numeroTop9" class="form-label">Número 9:</label><input type="number" class="form-control" id="numeroTop9"></div>
+                    <div class="col-md-6"><label for="numeroTop10" class="form-label">Número 10:</label><input type="number" class="form-control" id="numeroTop10"></div>
+                </div>
+
+                <button onclick="Top10MaioreMenor()" class="btn btn-primary w-100 mt-4">Verificar</button>
+                <div id="resultado" class="alert alert-info mt-3 mb-0">Resultado aparecerá aqui.</div>
+                <a href="../index.html" class="btn btn-outline-secondary w-100 mt-3">Voltar para a página inicial</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../JS/funcoes.js"></script>
+</body>
+</html>
